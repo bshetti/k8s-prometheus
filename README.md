@@ -5,7 +5,12 @@
 `kubectl`, `gcloud` and (of course..) [rights to create the RBAC resources in the GKE cluster](https://coreos.com/operators/prometheus/docs/latest/troubleshooting.html)
 
 1. Have access to a GKE cluster with `kubectl`
-1. kubectl create namespace monitoring
+
+run one of the following
+
+$ kubectl create namespace monitoring
+
+$ kubectl create -f monitoring-namespace.yaml
 
 ## Setup (detailed instructions)
 
