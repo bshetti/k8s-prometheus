@@ -5,6 +5,7 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: prometheus-server-conf
+  namespace: monitoring
 data:
   prometheus.yml: |
     global:
